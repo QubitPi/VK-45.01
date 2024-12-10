@@ -63,7 +63,6 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     needs: [yaml-lint, markdown-lint, linkChecker]
-    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -86,6 +85,7 @@ jobs:
       - name: Load CNAME
         run: cp CNAME build
       - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/master'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

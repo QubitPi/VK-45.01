@@ -17,9 +17,9 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 5rem;
+  gap: 3rem;
 
-  padding: 0.5rem 1rem;
+  padding: 1rem 3rem;
 
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
@@ -63,7 +63,7 @@
 .container .headerSection {
   flex: 100%;
   height: 4rem;
-  margin-bottom: -5rem;
+  margin-bottom: -2rem;
 
   background: white;
   background: linear-gradient(
