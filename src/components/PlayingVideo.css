@@ -42,6 +42,10 @@
     font-size: 20px;
     /*font-family: BreitkopfFraktur;*/
     margin-bottom: 1rem;
+
+    /* Make long transcript scrollable so that the transcript section doesn't stretch too far down */
+    height: 300px;
+    overflow-y: auto;
 }
 
 .video img {
