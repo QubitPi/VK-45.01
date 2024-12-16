@@ -16,7 +16,7 @@
 import React, {useState} from 'react';
 import './App.css';
 import {videos as data} from "./videos"
-import {Footer, Header, PlayingVideo, PlayList} from "./components";
+import {Footer, Header, MovieList, PlayingVideo, PlayList} from "./components";
 
 function App() {
   const videos: { title: string, duration: string, transcript: JSX.Element }[] = data
@@ -25,23 +25,30 @@ function App() {
   return (
       <div className="container">
         <div className="headerSection">
-          <Header />
+          <Header/>
         </div>
-        <div className="playingVideoSection">
-          <PlayingVideo
-              videoTitle={playingTitle}
-              transcript={videos.filter(video => video.title === playingTitle)[0].transcript}
-          />
-        </div>
-        <div className="playListSection">
-          <PlayList
-              playingTitle={playingTitle}
-              videos={videos}
-              listItemOnClick={(video) => setPlayingTitle(video.title)}
-          />
+        <div className="mainSection">
+          <div className="metaSection">
+            <div className="moviesSection">
+              <MovieList/>
+            </div>
+            <div className="playListSection">
+              <PlayList
+                  playingTitle={playingTitle}
+                  videos={videos}
+                  listItemOnClick={(video) => setPlayingTitle(video.title)}
+              />
+            </div>
+          </div>
+          <div className="playingVideoSection">
+            <PlayingVideo
+                videoTitle={playingTitle}
+                transcript={videos.filter(video => video.title === playingTitle)[0].transcript}
+            />
+          </div>
         </div>
         <div className="footerSection">
-          <Footer />
+          <Footer/>
         </div>
       </div>
   );

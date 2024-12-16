@@ -1,0 +1,67 @@
+.movieList {
+    border-radius: 2rem;
+    -webkit-mask-image:
+            linear-gradient(to top, black 0%, black 100%),
+            linear-gradient(to top, transparent 0%, black 100%),
+            linear-gradient(to right, transparent 0%, black 100%),
+            linear-gradient(to bottom, transparent 0%, black 100%),
+            linear-gradient(to left, transparent 0%, black 100%);
+    -webkit-mask-position:
+            center,
+            top,
+            right,
+            bottom,
+            left;
+    -webkit-mask-size:
+            100% 100%,
+            100% 10px,
+            10px 100%,
+            100% 10px,
+            10px 100%;
+    -webkit-mask-repeat:
+            no-repeat,
+            no-repeat,
+            no-repeat,
+            no-repeat,
+            no-repeat;
+    -webkit-mask-composite:
+            source-out,
+            source-over,
+            source-over,
+            source-over;
+    mask-image:
+            linear-gradient(to top, black 0%, black 100%),
+            linear-gradient(to top, transparent 0%, black 100%),
+            linear-gradient(to right, transparent 0%, black 100%),
+            linear-gradient(to bottom, transparent 0%, black 100%),
+            linear-gradient(to left, transparent 0%, black 100%);
+    mask-position:
+            center,
+            top,
+            right,
+            bottom,
+            left;
+    mask-size:
+            100% 100%,
+            100% 10px,
+            10px 100%,
+            100% 10px,
+            10px 100%;
+    mask-repeat:
+            no-repeat,
+            no-repeat,
+            no-repeat,
+            no-repeat,
+            no-repeat;
+    mask-composite:
+            subtract,
+            add,
+            add,
+            add;
+}
+
+.movieList img {
+    height: 100%;
+    width: 100%;
+    max-height: 30vh;
+}

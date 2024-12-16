@@ -14,7 +14,8 @@
  * limitations under the License.
  */
 .playlist {
-    width: 85%;
+    width: 80%;
+    margin: auto;
 }
 
 .playlist .title {
@@ -29,7 +30,7 @@
 
 .playlist > p {
     padding: 1rem;
-    color: var(--secondary);
+    color: var(--primary-green);
 }
 
 .playlist .videos {
@@ -70,7 +71,7 @@
 
 .playlist .videos .video.active {
     background-color: #0003;
-    color: var(--secondary);
+    color: black;
 }
 
 .playlist .videos .video.active img {

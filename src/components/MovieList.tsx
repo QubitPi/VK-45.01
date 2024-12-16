@@ -14,8 +14,12 @@
  * limitations under the License.
  */
 
-export { default as Header } from "./Header";
-export { default as MovieList } from "./MovieList";
-export { default as PlayList } from "./PlayList";
-export { default as PlayingVideo } from "./PlayingVideo";
-export { default as Footer } from "./Footer";
+import "./MovieList.css"
+
+export default function MovieList() {
+  return (
+      <div className="movieList">
+        <img src="generation-war.png" alt="Movie cover"></img>
+      </div>
+  )
+}
