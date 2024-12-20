@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.9059048b.css",
-    "main.js": "/static/js/main.1338b2a9.js",
+    "main.css": "/static/css/main.214f1ef5.css",
+    "main.js": "/static/js/main.84eb489d.js",
     "static/js/453.d9e53b68.chunk.js": "/static/js/453.d9e53b68.chunk.js",
     "static/media/Ubuntu-R.ttf": "/static/media/Ubuntu-R.5d5340410d5982ca5432.ttf",
     "static/media/BreitkopfFraktur.ttf": "/static/media/BreitkopfFraktur.5358de19423845a14369.ttf",
+    "static/media/huggingface.svg": "/static/media/huggingface.8bcf2fb06963c8b86261887b500daccd.svg",
     "static/media/github.svg": "/static/media/github.a56466bd5792c58f256266127fd83de5.svg",
     "index.html": "/index.html",
     "static/media/play.svg": "/static/media/play.a259cfd4b64364630794331c26ea20d4.svg",
-    "main.9059048b.css.map": "/static/css/main.9059048b.css.map",
-    "main.1338b2a9.js.map": "/static/js/main.1338b2a9.js.map",
+    "main.214f1ef5.css.map": "/static/css/main.214f1ef5.css.map",
+    "main.84eb489d.js.map": "/static/js/main.84eb489d.js.map",
     "453.d9e53b68.chunk.js.map": "/static/js/453.d9e53b68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9059048b.css",
-    "static/js/main.1338b2a9.js"
+    "static/css/main.214f1ef5.css",
+    "static/js/main.84eb489d.js"
   ]
 }
