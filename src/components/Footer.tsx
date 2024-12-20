@@ -13,14 +13,36 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+// import huggingFaceIcon from "./images/huggingface.svg";
+// import GitHubSvg from './images/github.svg';
+
+import { ReactComponent as HuggingFaceIcon} from './images/huggingface.svg';
+import { ReactComponent as GitHubSvg } from './images/github.svg';
 
 import "./Footer.css"
-
 
 export default function Footer() {
   return (
       <div className="footer">
-        <p>VK-45.01 is a companion project for QubitPi/tiger</p>
+        <div className="footerInfo">
+          <p>Study German with movie</p>
+          <div className="navigation">
+            <ul>
+              <li className="listItem">
+                <a href="https://tiger.qubitpi.org">
+                  <span className="listItemIcon"><HuggingFaceIcon /></span>
+                  <span className="listItemText">QubitPi/tiger</span>
+                </a>
+              </li>
+              <li className="listItem">
+                <a href="https://qubitpi.org">
+                  <span className="listItemIcon"><GitHubSvg /></span>
+                  <span className="listItemText">QubitPi</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
         <div className="logo">
           <img src="/logo512.png" alt="logo"/>
         </div>
