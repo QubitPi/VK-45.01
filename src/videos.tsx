@@ -186,5 +186,33 @@ export const videos = [
       - Sie kennen den Befehl. <br/>
       - Die Sowjets haben die Genfer Konvention nicht unterschrieben. Die Kommissare sind sofort zu exekutieren. Das ist kein normaler Krieg, sondern eine Weltanschauung. Tun Sie es abseits, sodass die Truppe nicht verroht.
     </div>
+  },
+  {
+    "title": "Generation War - Antagonizing Conversation",
+    "duration": "2:14",
+    "transcript": <div>
+      - Stimmt es, dass der Leutnant den Gefangenen exekutieren musste? <br/>
+      - Ja, das stimmt. <br/>
+      - Ich hoffe nur, dass Stalin noch ein wenig durchhält. Stellt euch vor, der Russe kapituliert morgen. Dann kommen
+        wir doch nie nach Moskau. Alle wären sie nach Hause gekommen mit schicken Uniformen mit Orden und Narben. Die
+        Mädels hätten verrückt gespielt. Und ich? Ich wäre nur ein stinknormaler Zivilist. Ist doch so, oder? <br/>
+      - Mein Alter war sein Leben lang keine zehn Kilometer von seinem Hof getan. Und ich bin jetzt hier, tausend
+        entfernt. Und wisst ihr warum? Der Führer hat's gesagt. Wenn der Krieg gewonnen ist, gibt es hier im Osten Land
+        für jeden von uns. Und ich bleib hier. Ich such mir eine Frau und bleib hier. <br/>
+      - Wird gut gedüngt sein mit unserem Blut. <br/>
+      - Nicht mit deinem, Winter. Aber du schlau genug bist, den Kopf einzuziehen, sobald der Ivan einen lässt. <br/>
+      - Ich will dir doch einfach nur den Vortritt lassen, Schneider. Wo du so scharf aufs Eke 1 bist, hm? <br/>
+      - Was? Was hast du gesagt? <br/>
+      - [Soldat] Achtung! <br/>
+      - Macht Schluss für heute. Wir brechen um sechs auf. Es wird ein harter Tag morgen. Gute Nacht.
+      - Ab in die Falle, Männer. Morgen um sechs geht's los. <br/>
+      - Scheiße, das ist mit dem Leutnant. <br/>
+      - Was scheiße, Koch, er hat's für uns getan. <br/>
+      - Nicht für mich. <br/>
+      - Sonst hätte es einer von uns tun müssen. <br/>
+      - Nein, das hätten wir nicht. <br/>
+      - Denkst du, der Russe würde es anders mit uns machen? <br/>
+      - Vielleicht ist er gerade dabei, von uns zu lernen. <br/>
+    </div>
   }
 ]
