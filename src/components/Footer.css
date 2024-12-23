@@ -16,12 +16,14 @@
 
 .footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 .footer .footerInfo {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -51,8 +53,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .footer .footerInfo .navigation ul .listItem a span svg {
@@ -81,7 +81,9 @@
 
 .footer .logo {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 
