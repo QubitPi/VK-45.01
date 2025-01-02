@@ -37,7 +37,8 @@ export const videos = [
       - Ich würde gern mitmachen, wie mein Vater 1913, aber wenn ihr verliert, heißt es wieder Wir waren schon. <br/>
       - Das ist eben kein Land für Schwächlinge und Volksfremde. <br/>
       - Jeder muss Opfer bringen. <br/>
-    </div>
+    </div>,
+    "googleDriveVideoId": "1zujoQIfttTNmLmmHsle70P6453UyZPQc"
   },
   {
     "title": "Generation War - Party Pray",
@@ -58,7 +59,8 @@ export const videos = [
       <br/>
       Wir waren fünf Freunde. Wir waren jung und wir wussten, dass uns die Zukunft gehören würde. Die ganze Welt lag
       vor uns. Wir mussten nur zugreifen. Wir waren unsterblich. Wir sollten es bald besser wissen.
-    </div>
+    </div>,
+    "googleDriveVideoId": "1jiUXFSGnQHiBrnn6d7-aYcQNKP0xBN3U"
   },
   {
     "title": "Generation War - Field",
@@ -98,7 +100,8 @@ export const videos = [
       - Koch, wie viel hast du? <br/>
       - Koch hat bestimmt schon zehn. <br/>
       - Dann schreibt Freitag seiner Frau morgen 'ne Karte vom Roten Platz. <br/>
-    </div>
+    </div>,
+    "googleDriveVideoId": "17k_eaJNcKe4fOvWZ8jbW3sYUP56ehRzn"
   },
   {
       "title": "Generation War - Receiving Order",
@@ -120,7 +123,8 @@ export const videos = [
         - Jetzt gibt's was vor die Flinte, Mädels. Verstanden? <br/>
         - Jawohl, Herr Hauptoffizier. <br/>
         - Na dann, verhauen wir mal den Iwan ein bisschen, ne?
-      </div>
+      </div>,
+    "googleDriveVideoId": "1ANrwjz1j7LrXAjWQOp5p3NQR6gluMzkS"
   },
   {
     "title": "Generation War - Operation Aftermaths",
@@ -144,7 +148,8 @@ export const videos = [
       - Das ist für den Küchenbullen. Ich hab ein Rezept für Fleischsuppe von meiner Großmutter. <br/>
       - Komm, Schnitzel. <br/>
       - Komm. Komm, Schnitzel.
-    </div>
+    </div>,
+    "googleDriveVideoId": "1XV66QYsGJvoUYfMviFE-OmvLKZgw-jbH"
   },
   {
     "title": "Generation War - The Talk",
@@ -172,7 +177,8 @@ export const videos = [
       <br/>
       - Habt ihr was von Freitag gehört?  <br/>
       - Er ist im Lazarett.  <br/>
-    </div>
+    </div>,
+    "googleDriveVideoId": "1Ijmnpioxuwpo_HyGi1Rm2bYGiUvK9TkH"
   },
   {
     "title": "Generation War - Order for Execution",
@@ -185,7 +191,8 @@ export const videos = [
       - Aber der Mann ist Kriegsgefangener. <br/>
       - Sie kennen den Befehl. <br/>
       - Die Sowjets haben die Genfer Konvention nicht unterschrieben. Die Kommissare sind sofort zu exekutieren. Das ist kein normaler Krieg, sondern eine Weltanschauung. Tun Sie es abseits, sodass die Truppe nicht verroht.
-    </div>
+    </div>,
+    "googleDriveVideoId": "1sCbtqb7JWMqPcqh1EbFIiXN2ZaCGivBw"
   },
   {
     "title": "Generation War - Antagonizing Conversation",
@@ -213,6 +220,7 @@ export const videos = [
       - Nein, das hätten wir nicht. <br/>
       - Denkst du, der Russe würde es anders mit uns machen? <br/>
       - Vielleicht ist er gerade dabei, von uns zu lernen. <br/>
-    </div>
+    </div>,
+    "googleDriveVideoId": "1Bwws-Dy2Cs4VQV0TPd-ewfvcidzCw5zV"
   }
 ]
