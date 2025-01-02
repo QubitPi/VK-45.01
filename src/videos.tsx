@@ -222,5 +222,84 @@ export const videos = [
       - Vielleicht ist er gerade dabei, von uns zu lernen. <br/>
     </div>,
     "googleDriveVideoId": "1Bwws-Dy2Cs4VQV0TPd-ewfvcidzCw5zV"
-  }
+  },
+  {
+    "title": "Generation War - SS Officer Executing Jewish Girl",
+    "duration": "4:09",
+    "transcript": <div>
+      19. September 1941. Im Kesselschlachten nehmen wir die Russen zu Hunderttausenden gefangen. Doch sie geben immer
+      noch nicht auf. Kämpfen um jedes Haus. Die letzten Zuckungen eines Kolosses, der kurz davor steht zu fallen. Ich
+      bin immer noch optimistisch, dass wir Weihnachten wieder zu Hause sein werden. Und doch, es ist ein anderer Krieg,
+      als ich dachte. <br/>
+      <br/>
+      - Ich habe Meldung, dass der Sicherheitsdienst hier eine Säuberungsaktion gegen Partisanen durchführt. Der Befehl
+        lautet, keiner kommt rein, keiner kommt raus. <br/>
+      - Was machen wir, wenn jemand durchführt? <br/>
+      - Erschießen. <br/>
+      - Schießt ganz gern, oder? <br/>
+      - Als ich sieben war, ist unser Vater arbeitslos geworden. Da sind wir in die Wälder. Jagen. Erst als der Führer
+        kam, hat Vater wieder Arbeit bekommen. <br/>
+      - Da sind sie ja endlich. <br/>
+      - Hilfspolizei. Ukrainer. <br/>
+      <br/>
+      [aufgeregtes Stimmengewirr] <br/>
+      <br/>
+      - Da sind ja auch Kinder dabei. Die dürfen keine Zivilisten töten. <br/>
+      <br/>
+      [dramatische Musik] <br/>
+      <br/>
+      - Hey! <br/>
+      - Stoj! Lass sie los! Was heißt sofort? <br/>
+      - Sejtschass. <br/>
+      - Sejtschass! <br/>
+      - Was ist hier los? <br/>
+      - Loslassen! <br/>
+      - Otpusti. <br/>
+      - Otpusti! <br/>
+      - Herr Sturmbannführer. <br/>
+      - Herr Leutnant. <br/>
+      - Das Mädchen gehört dem Sicherheitsdienst. <br/>
+      - Das Mädchen untersteht, wie alle Zivilisten im Kampfgebiet der Wehrmacht. <br/>
+      - Das ist keine Zivilistin. Das ist eine Jüdin. Befehl ist Befehl. <br/>
+      - Ihre Befehle lauten, ukrainischen Mob anzuführen. Wie ehrenvoll für einen deutschen Offizier. Das Mädchen bleibt <br/>
+        in Ihrer Verantwortung, bis sich die Sache geregelt hat. <br/>
+      - Zu Befehl. <br/>
+      - Wie Sie wünschen, Leutnant. <br/>
+      - Herr Sturmbannführer. <br/>
+    </div>,
+    "googleDriveVideoId": "1A-o_iG0_mEPJF9WIrK7torU1WjzfKz4L"
+  },
+  {
+    "title": "Generation War - Post-Talk on Executing Jewish Girl",
+    "duration": "1:04",
+    "transcript": <div>
+      - Leutnant Winter. Auf ein Wort. Sind Sie wahnsinnig? Ein Sturmbannführer des Sicherheitsdienstes. <br/>
+      - Er hat vor meinen Augen ein Kind exekutiert. <br/>
+      - Wo der Jude ist, ist der Partisan. Wir führen einen Krieg. <br/>
+      - Aber das ist doch kein Krieg. <br/>
+      - Doch. Ein neuer. Im Namen des Führers. <br/>
+      - Wenn wir den verlieren, wird uns nicht mal mehr Gott retten. Und ganz sicher nicht der Führer. unter keinen
+        Umständen verlieren. <br/>
+      - Sie sind mein bester Mann. Sie können es noch sehr weit bringen. Ruinieren Sie nicht Ihre Karriere. Wilhelm. Wir
+        sollten uns von der Welt verabschieden, wie wir sie kennen. <br/>
+    </div>,
+    "googleDriveVideoId": "1PDyJuIouBqqAjY0UeUtbvETjeDAcMPSb"
+  },
+  {
+    "title": "Generation War - Aftermath of Executing Jewish Girl",
+    "duration": "0:56",
+    "transcript": <div>
+      - [Koch] Sie war höchstens elf. Es geht um die Reinheit unserer Rasse. Die Juden verderben das Blut der
+        Deutschen. <br/>
+      - Halt die Fresse, Schneider. <br/>
+      - Steht schon in "Mein Kampf". <br/>
+      - Du kannst lesen? <br/>
+      - [stottert] Wir verteidigen unser Vaterland. <br/>
+      - Was denkst du, machen die da drüben? Genau das Gleiche. <br/>
+      - Herr Sturmbannführer. <br/>
+      - Leutnant. Entschuldigung wegen der Schweinerei vorhin. War nicht nötig gewesen. Aber das jüdische Blut ist so
+        tückisch, es spritzt überall hin. Unberechenbar. Und deswegen sind die Juden so gefährlich. <br/>
+    </div>,
+    "googleDriveVideoId": "1HbvMTjYCi_-f7hRWSdAEPtl3UiXNS7B1"
+  },
 ]
