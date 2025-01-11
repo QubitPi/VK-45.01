@@ -159,7 +159,7 @@ export const videos = [
       - Komm, Schnitzel. <br/>
       - Komm. Komm, Schnitzel.
     </div>,
-    "youTubeVideoId": "KYWMEjmUtgQ"
+    "googleDriveVideoId": "1XV66QYsGJvoUYfMviFE-OmvLKZgw-jbH"
   },
   {
     "title": "Generation War - The Talk",
