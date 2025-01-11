@@ -48,7 +48,7 @@ export const videos = [
       - Das ist eben kein Land für Schwächlinge und Volksfremde. <br/>
       - Jeder muss Opfer bringen. <br/>
     </div>,
-    "googleDriveVideoId": "1zujoQIfttTNmLmmHsle70P6453UyZPQc"
+    "youTubeVideoId": "IQU-KXP6lzo"
   },
   {
     "title": "Generation War - Party Pray",
@@ -70,7 +70,7 @@ export const videos = [
       Wir waren fünf Freunde. Wir waren jung und wir wussten, dass uns die Zukunft gehören würde. Die ganze Welt lag
       vor uns. Wir mussten nur zugreifen. Wir waren unsterblich. Wir sollten es bald besser wissen.
     </div>,
-    "googleDriveVideoId": "1jiUXFSGnQHiBrnn6d7-aYcQNKP0xBN3U"
+    "youTubeVideoId": "ZjWcMWGIXaY"
   },
   {
     "title": "Generation War - Field",
@@ -111,7 +111,7 @@ export const videos = [
       - Koch hat bestimmt schon zehn. <br/>
       - Dann schreibt Freitag seiner Frau morgen 'ne Karte vom Roten Platz. <br/>
     </div>,
-    "googleDriveVideoId": "17k_eaJNcKe4fOvWZ8jbW3sYUP56ehRzn"
+    "youTubeVideoId": "QlZZBZ8Lnh4"
   },
   {
       "title": "Generation War - Receiving Order",
@@ -134,7 +134,7 @@ export const videos = [
         - Jawohl, Herr Hauptoffizier. <br/>
         - Na dann, verhauen wir mal den Iwan ein bisschen, ne?
       </div>,
-    "googleDriveVideoId": "1ANrwjz1j7LrXAjWQOp5p3NQR6gluMzkS"
+    "youTubeVideoId": "jRZzMVpw81A"
   },
   {
     "title": "Generation War - Operation Aftermaths",
@@ -159,7 +159,7 @@ export const videos = [
       - Komm, Schnitzel. <br/>
       - Komm. Komm, Schnitzel.
     </div>,
-    "googleDriveVideoId": "1XV66QYsGJvoUYfMviFE-OmvLKZgw-jbH"
+    "youTubeVideoId": "KYWMEjmUtgQ"
   },
   {
     "title": "Generation War - The Talk",
@@ -188,7 +188,7 @@ export const videos = [
       - Habt ihr was von Freitag gehört?  <br/>
       - Er ist im Lazarett.  <br/>
     </div>,
-    "googleDriveVideoId": "1Ijmnpioxuwpo_HyGi1Rm2bYGiUvK9TkH"
+    "youTubeVideoId": "UNKNOWN"
   },
   {
     "title": "Generation War - Order for Execution",
@@ -202,7 +202,7 @@ export const videos = [
       - Sie kennen den Befehl. <br/>
       - Die Sowjets haben die Genfer Konvention nicht unterschrieben. Die Kommissare sind sofort zu exekutieren. Das ist kein normaler Krieg, sondern eine Weltanschauung. Tun Sie es abseits, sodass die Truppe nicht verroht.
     </div>,
-    "googleDriveVideoId": "1sCbtqb7JWMqPcqh1EbFIiXN2ZaCGivBw"
+    "youTubeVideoId": "GXRZK0kDvMo"
   },
   {
     "title": "Generation War - Antagonizing Conversation",
@@ -231,7 +231,7 @@ export const videos = [
       - Denkst du, der Russe würde es anders mit uns machen? <br/>
       - Vielleicht ist er gerade dabei, von uns zu lernen. <br/>
     </div>,
-    "googleDriveVideoId": "1Bwws-Dy2Cs4VQV0TPd-ewfvcidzCw5zV"
+    "youTubeVideoId": "OTMghAzufw0"
   },
   {
     "title": "Generation War - SS Officer Executing Jewish Girl",
@@ -277,7 +277,7 @@ export const videos = [
       - Wie Sie wünschen, Leutnant. <br/>
       - Herr Sturmbannführer. <br/>
     </div>,
-    "googleDriveVideoId": "1A-o_iG0_mEPJF9WIrK7torU1WjzfKz4L"
+    "youTubeVideoId": "UNKNOWN"
   },
   {
     "title": "Generation War - Post-Talk on Executing Jewish Girl",
@@ -293,7 +293,7 @@ export const videos = [
       - Sie sind mein bester Mann. Sie können es noch sehr weit bringen. Ruinieren Sie nicht Ihre Karriere. Wilhelm. Wir
         sollten uns von der Welt verabschieden, wie wir sie kennen. <br/>
     </div>,
-    "googleDriveVideoId": "1PDyJuIouBqqAjY0UeUtbvETjeDAcMPSb"
+    "youTubeVideoId": "jEoaHOF-F5c"
   },
   {
     "title": "Generation War - Aftermath of Executing Jewish Girl",
@@ -310,6 +310,6 @@ export const videos = [
       - Leutnant. Entschuldigung wegen der Schweinerei vorhin. War nicht nötig gewesen. Aber das jüdische Blut ist so
         tückisch, es spritzt überall hin. Unberechenbar. Und deswegen sind die Juden so gefährlich. <br/>
     </div>,
-    "googleDriveVideoId": "1HbvMTjYCi_-f7hRWSdAEPtl3UiXNS7B1"
+    "youTubeVideoId": "9w5pW2oYPMU"
   },
 ]

@@ -19,7 +19,7 @@ import {videos as data} from "./videos"
 import {Footer, Header, MovieList, PlayingVideo, PlayList} from "./components";
 
 function App() {
-  const videos: { title: string, duration: string, transcript: JSX.Element, googleDriveVideoId: string }[] = data
+  const videos: { title: string, duration: string, transcript: JSX.Element, youTubeVideoId: string }[] = data
   const [playingTitle, setPlayingTitle] = useState<string>(videos[0].title)
 
   return (
@@ -44,7 +44,7 @@ function App() {
             <PlayingVideo
                 videoTitle={playingTitle}
                 transcript={videos.filter(video => video.title === playingTitle)[0].transcript}
-                googleDriveVideoId={videos.filter(video => video.title === playingTitle)[0].googleDriveVideoId}
+                youTubeVideoId={videos.filter(video => video.title === playingTitle)[0].youTubeVideoId}
             />
           </div>
         </div>
