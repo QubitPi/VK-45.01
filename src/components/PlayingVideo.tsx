@@ -36,7 +36,7 @@ export default function PlayingVideo(props: PlayingVideoProps) {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen></iframe>
               : <video
-                  src={`https://www.googleapis.com/drive/v3/files/${props.googleDriveVideoId}?alt=media&key=AIzaSyDyfx-znEdHqX1PhBgfOVXkBnjioffkgTs`}
+                  src={`https://api.paion-data.dev/vk4501/googledrive/${props.googleDriveVideoId}?alt=media&key=AIzaSyDyfx-znEdHqX1PhBgfOVXkBnjioffkgTs`}
                   controls autoPlay muted></video>
         }
         <div className="transcriptTitle">Clip Transcript</div>
