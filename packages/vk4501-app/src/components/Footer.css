@@ -1,0 +1,93 @@
+/**
+ * Copyright Jiaqi Liu
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .footerInfo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .footerInfo p {
+  padding-left: 20px;
+  font-size: 1rem;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 700;
+  justify-content: center;
+}
+
+.footer .footerInfo .navigation ul {
+  padding-left: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .footerInfo .navigation ul .listItem {
+  list-style: none;
+}
+
+.footer .footerInfo .navigation ul .listItem a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .footerInfo .navigation ul .listItem a span img {
+  transition: 0.5s;
+  max-height: 4rem;
+
+  width: 6rem;
+  height: 3rem;
+}
+.footer .footerInfo .navigation ul .listItem:hover a span img {
+  transform: translateY(-35px);
+}
+
+.footer .footerInfo .navigation ul .listItem a .listItemText {
+  position: absolute;
+  transition: 0.5s;
+  opacity: 0;
+  transform: translateY(20px);
+}
+.footer .footerInfo .navigation ul .listItem:hover a .listItemText {
+  position: absolute;
+  transition: 0.5s;
+  opacity: 1;
+  transform: translateY(10px);
+}
+
+.footer .logo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .logo img {
+  padding: 0.5rem 1rem;
+  max-height: 4rem;
+}

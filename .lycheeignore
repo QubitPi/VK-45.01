@@ -1,4 +1,2 @@
 http://localhost:3000
-file:///.*/VK-45.01/public/%25PUBLIC_URL%25/logo192.png
-file:///.*/VK-45.01/public/%25PUBLIC_URL%25/favicon.ico
-file:///.*/VK-45.01/public/%25PUBLIC_URL%25/manifest.json
+file:///.*

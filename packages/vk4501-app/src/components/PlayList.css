@@ -1,0 +1,72 @@
+/**
+ * Copyright Jiaqi Liu
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+.playlist {
+  width: 80%;
+  margin: auto;
+
+  /* Make long list scrollable so that the list section doesn't stretch too far down */
+  height: 100%;
+  overflow-y: auto;
+}
+
+.playlist .title {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.playlist .videoTitle {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+.playlist > p {
+  padding: 1rem;
+  color: var(--primary-green);
+}
+
+.playlist .videos {
+  height: 70%;
+  overflow-y: auto;
+}
+
+.playlist .videos .video {
+  position: relative;
+  width: 100%;
+  height: 4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 1rem;
+  margin-top: 0.1rem;
+  cursor: pointer;
+
+  border-radius: 0.5rem;
+}
+
+.playlist .videos .video:hover {
+  background-color: #0003;
+}
+
+.playlist .videos .video.active {
+  background-color: #0003;
+  color: black;
+}
+
+.playlist .videos .video.active img {
+  filter: invert(100%) sepia(100%) saturate(2000%) hue-rotate(360deg);
+}
