@@ -16,7 +16,7 @@
 
 import HuggingFaceIcon from "./images/huggingface.svg";
 import GitHubSvg from "./images/github.svg";
-
+import Logo from "./images/logo.svg";
 import "./Footer.css";
 
 export default function Footer(): JSX.Element {
@@ -45,9 +45,7 @@ export default function Footer(): JSX.Element {
           </ul>
         </div>
       </div>
-      <div className="logo">
-        <img src="/logo512.png" alt="logo" />
-      </div>
+      <img src={Logo} alt="logo" />
     </div>
   );
 }
