@@ -13,20 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import React, { useState } from "react";
 import "./App.css";
-import { videos as data } from "./videos";
 import { Footer, Header, MovieList, PlayingVideo, PlayList } from "./components";
+import { selectPlayingVideo, setPlayingVideo, useAppDispatch, useAppSelector, videos } from "../../vk4501-redux";
 
 export default function App(): JSX.Element {
-  const videos: Array<{
-    title: string;
-    duration: string;
-    transcript: JSX.Element;
-    youTubeVideoId?: string;
-    googleDriveVideoId?: string;
-  }> = data;
-  const [playingTitle, setPlayingTitle] = useState<string>(videos[0].title);
+  const dispatch = useAppDispatch();
+
+  const playingVideo = useAppSelector(selectPlayingVideo);
 
   return (
     <div className="container">
@@ -40,18 +34,18 @@ export default function App(): JSX.Element {
           </div>
           <div className="playListSection">
             <PlayList
-              playingTitle={playingTitle}
+              playingTitle={playingVideo.title}
               videos={videos}
-              listItemOnClick={(video) => setPlayingTitle(video.title)}
+              listItemOnClick={(video) => dispatch(setPlayingVideo(video))}
             />
           </div>
         </div>
         <div className="playingVideoSection">
           <PlayingVideo
-            videoTitle={playingTitle}
-            transcript={videos.filter((video) => video.title === playingTitle)[0].transcript}
-            youTubeVideoId={videos.filter((video) => video.title === playingTitle)[0].youTubeVideoId}
-            googleDriveVideoId={videos.filter((video) => video.title === playingTitle)[0].googleDriveVideoId}
+            videoTitle={playingVideo.title}
+            transcript={playingVideo.transcript}
+            youTubeVideoId={playingVideo.youTubeVideoId}
+            googleDriveVideoId={playingVideo.googleDriveVideoId}
           />
         </div>
       </div>

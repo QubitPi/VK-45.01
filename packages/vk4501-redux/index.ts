@@ -14,17 +14,9 @@
  * limitations under the License.
  */
 
-export {
-  ANCIENT_GREEK,
-  LATIN,
-  CLASSICAL_HEBREW,
-  CLASSICAL_SANSKRIT,
-  type Language,
-  setLanguage,
-  setCardModalShow,
-  selectLanguage,
-  selectCardModalShow,
-} from "./src/appSlice";
+export { videos } from "./src/videos";
+
+export { setPlayingVideo, selectPlayingVideo, type Video } from "./src/appSlice";
 
 export { useAppSelector, useAppDispatch } from "./src/hooks";
 export { store } from "./src/store";

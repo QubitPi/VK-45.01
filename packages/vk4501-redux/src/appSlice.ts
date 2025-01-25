@@ -16,46 +16,36 @@
 
 import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
 import { type RootState } from "./store";
+import { videos } from "./videos";
 
-export const GERMAN = "German";
-export const ANCIENT_GREEK = "Ancient Greek";
-export const LATIN = "Latin";
-export const CLASSICAL_HEBREW = "Classical Hebrew";
-export const CLASSICAL_SANSKRIT = "Classical Sanskrit";
-
-export type Language =
-  | typeof GERMAN
-  | typeof ANCIENT_GREEK
-  | typeof LATIN
-  | typeof CLASSICAL_HEBREW
-  | typeof CLASSICAL_SANSKRIT;
+export interface Video {
+  title: string;
+  duration: string;
+  transcript: JSX.Element;
+  youTubeVideoId?: string;
+  googleDriveVideoId?: string;
+}
 
 interface AppState {
-  language: Language;
-  cardModalShow: boolean;
+  playingVideo: Video;
 }
 
 const initialState: AppState = {
-  language: ANCIENT_GREEK,
-  cardModalShow: false,
+  playingVideo: videos[0],
 };
 
 export const appSlice = createSlice({
   name: "app",
   initialState,
   reducers: {
-    setLanguage: (state, action: PayloadAction<Language>) => {
-      state.language = action.payload;
-    },
-    setCardModalShow: (state, action: PayloadAction<boolean>) => {
-      state.cardModalShow = action.payload;
+    setPlayingVideo: (state, action: PayloadAction<Video>) => {
+      state.playingVideo = action.payload;
     },
   },
 });
 
-export const { setLanguage, setCardModalShow } = appSlice.actions;
+export const { setPlayingVideo } = appSlice.actions;
 
-export const selectLanguage = (state: RootState): string => state.app.language;
-export const selectCardModalShow = (state: RootState): string => state.app.cardModalShow;
+export const selectPlayingVideo = (state: RootState): Video => state.app.playingVideo;
 
 export default appSlice.reducer;
