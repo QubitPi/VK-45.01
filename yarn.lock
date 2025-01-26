@@ -11631,6 +11631,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"vk4501-redux@workspace:packages/vk4501-redux":
+  version: 0.0.0-use.local
+  resolution: "vk4501-redux@workspace:packages/vk4501-redux"
+  languageName: unknown
+  linkType: soft
+
 "w3c-hr-time@npm:^1.0.2":
   version: 1.0.2
   resolution: "w3c-hr-time@npm:1.0.2"

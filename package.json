@@ -1,7 +1,8 @@
 {
   "name": "vk-45.01",
   "workspaces": [
-    "./packages/vk4501-app"
+    "./packages/vk4501-app",
+    "./packages/vk4501-redux"
   ],
   "version": "0.1.0",
   "engines": {
