@@ -15,7 +15,7 @@
  */
 import "./App.css";
 import { Footer, Header, MovieList, PlayingVideo, PlayList } from "./components";
-import { selectPlayingVideo, setPlayingVideo, useAppDispatch, useAppSelector, videos } from "../../vk4501-redux";
+import { selectPlayingVideo, setPlayingVideo, useAppDispatch, useAppSelector, videos } from "vk4501-redux";
 
 export default function App(): JSX.Element {
   const dispatch = useAppDispatch();

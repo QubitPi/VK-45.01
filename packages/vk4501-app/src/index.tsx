@@ -21,7 +21,7 @@ import { Provider } from "react-redux";
 import App from "./App";
 
 import * as Sentry from "@sentry/react";
-import { store } from "../../vk4501-redux";
+import { store } from "vk4501-redux";
 
 if (process.env.NODE_ENV === "production") {
   Sentry.init({
