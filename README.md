@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/badge/NODE-22-339933?logo=Node.js&logoColor=white&labelColor=66cc33&style=for-the-badge" alt="Node 18"/>
     <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" alt="TypeScript"/>
     <img src="https://img.shields.io/badge/webpack-8DD6F9?logo=webpack&logoColor=white&style=for-the-badge" alt="webpack"/>
-    <a href="https://yarnpkg.com/"><img src="https://img.shields.io/badge/Yarn%202-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white" alt="Yarn 2"/></a>
+    <a href="https://yarnpkg.com/"><img src="https://img.shields.io/badge/Yarn%204-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white" alt="Yarn 4"/></a>
     <a href="https://eslint.org/"><img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint"/></a>
     <a href="https://prettier.io/"><img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white" alt="Prettier"/></a>
     <a href="https://jest.qubitpi.org/"><img src="https://img.shields.io/badge/Jest%20Unit%20Tests-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest"/></a>
@@ -78,7 +78,7 @@ Install dependencies by
 
 > [!NOTE]
 >
-> Node 18 and Yarn 2 must be installed in local environment.
+> Node 18 and Yarn 4 must be installed in local environment.
 
 ```console
 yarn
